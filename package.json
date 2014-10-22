@@ -1,0 +1,22 @@
+
+  "name": "baller-hook",
+  "version": "0.0.0",
+  "description": "A baller hook",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/malnick/baller-npm-web-hook"
+  },
+  "keywords": [
+    "baller"
+  ],
+  "author": "Amy Bryce & Jeff Malnick",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/malnick/baller-npm-web-hook/issues"
+  },
+  "homepage": "https://github.com/malnick/baller-npm-web-hook"
+}
