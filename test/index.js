@@ -1,5 +1,6 @@
 var assert = require('assert');
 var request = require('request');
+var freeport = require('freeport')
 var myServer = require('../index');
 
 describe('An HTTP Server', function() {
@@ -8,7 +9,7 @@ describe('An HTTP Server', function() {
 		freeport(function(err, port) {
 			this.uri = 'http://localhost:'+ port;
 			myServer.listen(port, done)
-		}.bind(this));
+		}.bind(this))
 	done()
 	})
 
@@ -39,4 +40,4 @@ describe('An HTTP Server', function() {
 			assert.typeOf(body, string)
 		}) 
 	})
-}
+});
